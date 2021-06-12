@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--Fonts links-->
+
+        <!--CSS Links-->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css " />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <title>Interactions</title>
+    </head>
+    <body>
+        <!--DROP SECTION-->
+        <div class="one_1 text-center">
+            <div id="draggable" class="ui-widget-content">
+                <p>Drag me around</p>
+            </div>
+            <div id="droppable" class="ui-widget-header mt-3">
+                <p>Drop Your Document</p>
+            </div>
+        </div>
+        <!--CUSTOM SIZE-->
+        <div class="custom_Resize">
+            <div id="resizable" class="ui-widget-content">
+                <h3 class="ui-widget-header">Resizable</h3>
+            </div>
+        </div>
+
+        <!--SELECT JQ-->
+        <div class="custm_S">
+            <p id="feedback">
+                <span>
+                    You&apos;ve selected:
+                </span>
+                <span id="select-result">
+                    none
+                </span>
+            </p>
+            <ol id="selectable">
+                <li class="ui-widget-content">Select Item-1</li>
+                <li class="ui-widget-content">Select Item-2</li>
+                <li class="ui-widget-content">Select Item-3</li>
+                <li class="ui-widget-content">Select Item-4</li>
+                <li class="ui-widget-content">Select Item-5</li>
+                <li class="ui-widget-content">Select Item-6</li>
+            </ol>
+        </div>
+
+        <!--SORTABLE-->
+        <div class="shor_table">
+            <h3>Sortable</h3>
+            <ul id="sortable">
+                <li class="ui-state-default">Change Item 1</li>
+                <li class="ui-state-default">Change Item 2</li>
+                <li class="ui-state-default">Change Item 3</li>
+                <li class="ui-state-default">Change Item 4</li>
+                <li class="ui-state-default">Change Item 5</li>
+                <li class="ui-state-default">Change Item 6</li>
+                <li class="ui-state-default">Change Item 7</li>
+            </ul>
+        </div>
+
+        <!-- JS Links-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
